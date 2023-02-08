@@ -23,7 +23,7 @@ jobs:
     name: Linux cross-compile builds
     runs-on: ubuntu-20.04
     timeout-minutes: 15
-    needs: npm-version
+#     needs: npm-version
     strategy:
       matrix:
         include:
